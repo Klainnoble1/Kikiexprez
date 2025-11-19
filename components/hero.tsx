@@ -112,9 +112,12 @@ export default function Hero() {
           <p className="text-red-accent font-bold text-sm mb-2 uppercase tracking-wide">
             {slide.subtitle}
           </p>
-          <h1 className="text-4xl md:text-5xl font-bold text-navy-blue mb-6">
+          <h1 className="text-4xl md:text-5xl font-bold text-navy-blue mb-4">
             {slide.title}
           </h1>
+          <p className="text-navy-blue text-lg md:text-xl font-semibold mb-4 italic">
+            Delivering Peace of Mind Worldwide.
+          </p>
           <p className="text-gray-600 mb-8 leading-relaxed">
             {slide.description}
           </p>

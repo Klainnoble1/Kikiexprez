@@ -9,24 +9,34 @@ export const metadata = {
 export default function Services() {
   const services = [
     {
-      title: 'Air Freight Consolidation',
-      description: 'Our freight forwarding services guarantee that goods reach their destinations on time and in perfect condition, with established relationships ensuring competitive rates.',
+      title: 'Freight Forwarding (Air & Sea)',
+      description: 'Our comprehensive freight forwarding services guarantee that goods reach their destinations on time and in perfect condition, whether by air or sea. With established relationships ensuring competitive rates and reliable service.',
       image: '/air-freight-cargo-plane-loading.jpg'
     },
     {
-      title: 'Sea Freight Services',
-      description: 'We offer a full array of global ocean transportation services. From less than container loads to full container loads, we handle shipments of any size with complete documentation management.',
-      image: '/cargo-ship-containers-sea-freight.jpg'
+      title: 'Warehousing and Cargo Handling Management',
+      description: 'Professional warehousing and cargo handling services to ensure your goods are stored safely and managed efficiently throughout the logistics process. Our secure facilities provide short-term and long-term storage solutions.',
+      image: '/logistics-office-team-professionals.jpg'
     },
     {
-      title: 'Door To Door Services',
-      description: 'We engage in moving consignments from any part of the world to your location. Our door-to-door service ensures your items are in the best hands throughout the journey.',
+      title: 'Priority Clearance for Time Sensitive Material',
+      description: 'Expedited customs clearance services for urgent shipments that require fast-track processing to meet critical deadlines. We ensure your time-sensitive cargo moves through customs with minimal delays.',
+      image: '/customs-clearance-cargo-containers-yard.jpg'
+    },
+    {
+      title: 'Door-to-Door Delivery Services',
+      description: 'Complete end-to-end delivery solutions, moving consignments from any part of the world directly to your location. Our door-to-door service ensures your items are in the best hands throughout the entire journey with full tracking and visibility.',
       image: '/delivery-truck-logistics-door-to-door.jpg'
     },
     {
-      title: 'Custom Clearance',
-      description: 'We are a custom-licensed agency registered and fully compliant with all international trade regulations, providing expert documentation and seamless customs handling.',
-      image: '/customs-clearance-cargo-containers-yard.jpg'
+      title: 'Tracking and Delivery Visibility Solution',
+      description: 'Real-time tracking and visibility solutions that keep you informed about your shipment status at every stage of the journey. Stay connected with your cargo from pickup to final delivery with our advanced tracking systems.',
+      image: '/cargo-ship-containers-sea-freight.jpg'
+    },
+    {
+      title: 'Bulk Shipping Discount for High Volume',
+      description: 'Competitive pricing and special discounts for high-volume shipments, helping you reduce costs while maintaining service quality. We offer tailored solutions for businesses with regular shipping needs.',
+      image: '/cargo-ship-containers-logistics.jpg'
     }
   ]
 
@@ -45,9 +55,12 @@ export default function Services() {
         <div className="absolute inset-0 flex items-end pb-12 pl-8 md:pl-16">
           <div className="bg-white p-8 md:p-10 max-w-md">
             <h1 className="text-4xl md:text-5xl font-bold text-navy-blue mb-2">
-              Sea Freight
+              Our Services
             </h1>
-            <p className="text-gray-700 text-lg font-medium">Keeping our customers satisfied.</p>
+            <p className="text-navy-blue text-lg md:text-xl font-semibold italic mb-2">
+              Delivering Peace of Mind Worldwide.
+            </p>
+            <p className="text-gray-700 text-base">Comprehensive logistics solutions tailored to your needs.</p>
           </div>
         </div>
       </section>
@@ -93,12 +106,14 @@ export default function Services() {
           <h2 className="text-3xl md:text-4xl font-bold text-navy-blue mb-2 text-center">Our Services</h2>
           <div className="w-12 h-1 bg-red-accent mx-auto mb-12"></div>
 
-          <div className="grid md:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-3 lg:grid-cols-6 gap-6">
             {[
-              { title: 'Sea Freight', icon: '🚢' },
-              { title: 'Air Freight', icon: '✈️' },
+              { title: 'Freight Forwarding', icon: '🚢' },
+              { title: 'Warehousing', icon: '📦' },
+              { title: 'Priority Clearance', icon: '⚡' },
               { title: 'Door-to-Door', icon: '🚚' },
-              { title: 'Custom Clearance', icon: '📋' }
+              { title: 'Tracking', icon: '📍' },
+              { title: 'Bulk Discounts', icon: '💰' }
             ].map((item, index) => (
               <div key={index} className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow">
                 <div className="text-4xl mb-3">{item.icon}</div>
@@ -111,8 +126,8 @@ export default function Services() {
           </div>
           
           <div className="text-center mt-12">
-            <a href="/services" className="inline-block bg-red-accent text-white px-8 py-3 font-bold uppercase tracking-wider hover:bg-red-700 transition-colors">
-              All Services
+            <a href="/contact" className="inline-block bg-red-accent text-white px-8 py-3 font-bold uppercase tracking-wider hover:bg-red-accent/90 transition-colors">
+              Get a Quote
             </a>
           </div>
         </div>

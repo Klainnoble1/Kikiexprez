@@ -4,10 +4,10 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Updated color palette for logistics/cargo business */
+  /* Brand colors: White, Samsung Blue, YouTube Red */
   --light-blue: #E8F4F8;
-  --navy-blue: #1F3A7D;
-  --red-accent: #DC2626;
+  --navy-blue: #0066FF; /* Samsung Blue */
+  --red-accent: #FF0000; /* YouTube Red */
   
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
@@ -135,18 +135,21 @@
     @apply bg-[#E8F4F8];
   }
   .text-navy-blue {
-    @apply text-[#1F3A7D];
+    @apply text-[#0066FF];
+  }
+  .bg-navy-blue {
+    @apply bg-[#0066FF];
   }
   .text-red-accent {
-    @apply text-[#DC2626];
+    @apply text-[#FF0000];
   }
   .bg-red-accent {
-    @apply bg-[#DC2626];
+    @apply bg-[#FF0000];
   }
   .border-red-accent {
-    @apply border-[#DC2626];
+    @apply border-[#FF0000];
   }
   .border-navy-blue {
-    @apply border-[#1F3A7D];
+    @apply border-[#0066FF];
   }
 }

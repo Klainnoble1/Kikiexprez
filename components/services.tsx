@@ -1,25 +1,33 @@
 const services = [
   {
-    title: 'Air Freight',
-    description: 'Our freight forwarding services guarantee that goods get to their proper destinations on the agreed date.'
+    title: 'Freight Forwarding (Air & Sea)',
+    description: 'Our comprehensive freight forwarding services guarantee that goods get to their proper destinations on the agreed date, whether by air or sea.'
   },
   {
-    title: 'Sea Freight',
-    description: 'We can handle almost any size of shipment, from quantities less than container loads to full loads of containers.'
+    title: 'Warehousing and Cargo Handling Management',
+    description: 'Professional warehousing and cargo handling services to ensure your goods are stored safely and managed efficiently throughout the logistics process.'
   },
   {
-    title: 'Door-to-Door Delivery',
-    description: 'We also engage in moving of consignments from any part of the world to the location of our clients.'
+    title: 'Priority Clearance for Time Sensitive Material',
+    description: 'Expedited customs clearance services for urgent shipments that require fast-track processing to meet critical deadlines.'
   },
   {
-    title: 'Custom Clearance',
-    description: 'We are a custom-licensed agency registered under the Corporate Affairs Commission (CAC).'
+    title: 'Door-to-Door Delivery Services',
+    description: 'Complete end-to-end delivery solutions, moving consignments from any part of the world directly to your location with full tracking and visibility.'
+  },
+  {
+    title: 'Tracking and Delivery Visibility Solution',
+    description: 'Real-time tracking and visibility solutions that keep you informed about your shipment status at every stage of the journey.'
+  },
+  {
+    title: 'Bulk Shipping Discount for High Volume',
+    description: 'Competitive pricing and special discounts for high-volume shipments, helping you reduce costs while maintaining service quality.'
   }
 ]
 
 export default function Services() {
   return (
-    <section className="bg-blue-50 py-16 md:py-24">
+    <section className="bg-[#E6F2FF] py-16 md:py-24">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-navy-blue mb-4">
@@ -28,7 +36,7 @@ export default function Services() {
           <div className="w-16 h-1 bg-red-accent mx-auto"></div>
         </div>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service, index) => (
             <div 
               key={index}

@@ -9,8 +9,11 @@ export default function Footer() {
               <div className="bg-red-accent text-white font-bold px-2 py-1 text-sm">B</div>
               <h3 className="text-lg font-bold">KIKIEXPREZ</h3>
             </div>
-            <p className="text-gray-300 text-sm leading-relaxed">
+            <p className="text-gray-300 text-sm leading-relaxed mb-2">
               Your trusted logistics and courier partner for international cargo delivery from London to Lagos and beyond.
+            </p>
+            <p className="text-red-accent text-sm font-semibold italic">
+              Delivering Peace of Mind Worldwide.
             </p>
           </div>
 
