@@ -16,7 +16,7 @@ const heroSlides = [
     title: 'Sea Freight & Warehousing',
     subtitle: 'Complete Logistics Solutions',
     description: 'Optimize your shipping costs with our comprehensive sea freight services and state-of-the-art warehousing facilities. From FCL to LCL shipments, we handle all logistics efficiently with secure storage and dedicated customer support.',
-    image: '/Container.jpeg',
+    image: '/sea.webp',
     cta: 'Explore Our Services'
   }
 ]
