@@ -8,7 +8,7 @@ const heroSlides = [
     title: 'Express Air Freight',
     subtitle: 'Fast & Reliable Global Delivery',
     description: 'Experience swift international shipping with our premium air freight services. We deliver to 190 countries worldwide, guaranteeing timely delivery of your cargo with real-time tracking and comprehensive insurance coverage.',
-    image: '/cargo-airplane.png',
+    image: '/air-freight-cargo-loading.jpg',
     cta: 'Learn About Air Freight'
   },
   {
@@ -16,24 +16,16 @@ const heroSlides = [
     title: 'Sea Freight Solutions',
     subtitle: 'Cost-Effective Shipping',
     description: 'Optimize your shipping costs with our comprehensive sea freight services. From FCL to LCL shipments, we handle all logistics efficiently with transparent pricing and dedicated customer support throughout your journey.',
-    image: '/cargo-ship-containers-logistics.jpg',
+    image: '/container-ship-ocean.jpg',
     cta: 'Explore Sea Freight'
   },
   {
     id: 3,
-    title: 'Door-to-Door Delivery',
-    subtitle: 'Complete Logistics Solution',
-    description: 'Eliminate the hassle of complex logistics. Our end-to-end delivery service manages everything from collection to final destination, ensuring your packages arrive safely and on schedule with full accountability.',
-    image: '/delivery-truck-logistics-door-to-door.jpg',
-    cta: 'View Delivery Services'
-  },
-  {
-    id: 4,
-    title: 'Customs Clearance',
-    subtitle: 'Smooth Border Crossing',
-    description: 'Navigate international regulations effortlessly with our expert customs clearance team. We handle all documentation and compliance requirements, accelerating your cargo through customs with minimal delays.',
-    image: '/customs-clearance-cargo-containers-yard.jpg',
-    cta: 'Discover Clearance Services'
+    title: 'Warehousing & Cargo Handling',
+    subtitle: 'Secure Storage & Management',
+    description: 'Our state-of-the-art warehousing facilities provide secure storage and efficient cargo handling. We manage your goods with precision and care, ensuring they're ready for seamless distribution worldwide.',
+    image: '/stacked-shipping-containers.jpg',
+    cta: 'View Warehousing Services'
   }
 ]
 
