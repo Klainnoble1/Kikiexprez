@@ -160,7 +160,7 @@ export default function About() {
       <section className="py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 md:px-8">
           <div className="grid md:grid-cols-2 gap-12 mb-16">
-            <div className="bg-[#E6F2FF] p-8 md:p-10 rounded-lg">
+            <div className="bg-[#E8EBF5] p-8 md:p-10 rounded-lg">
               <h2 className="text-2xl md:text-3xl font-bold text-navy-blue mb-4">Our Mission</h2>
               <p className="text-base md:text-lg text-gray-700 leading-relaxed">
                 To deliver reliable, efficient, and innovative logistics solutions that connect businesses across borders and ensure seamless cargo movement through world-class freight forwarding, warehousing, and door-to-door delivery.

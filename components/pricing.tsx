@@ -43,7 +43,7 @@ export default function Pricing() {
         </div>
 
         {/* Air Freight Rates Box */}
-        <div className="bg-[#E6F2FF] rounded-lg p-12 border-l-4 border-red-accent max-w-2xl mx-auto">
+        <div className="bg-[#E8EBF5] rounded-lg p-12 border-l-4 border-red-accent max-w-2xl mx-auto">
           <h3 className="text-2xl font-bold text-navy-blue mb-6 text-center">Air Freight Rates</h3>
           <div className="space-y-4 text-center">
             <div>

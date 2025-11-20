@@ -4,9 +4,9 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Brand colors: White, Samsung Blue, YouTube Red */
+  /* Brand colors: White, TFL Deep Blue, YouTube Red */
   --light-blue: #E8F4F8;
-  --navy-blue: #0066FF; /* Samsung Blue */
+  --navy-blue: #394498; /* TFL Deep Blue */
   --red-accent: #FF0000; /* YouTube Red */
   
   --background: oklch(1 0 0);
@@ -135,10 +135,10 @@
     @apply bg-[#E8F4F8];
   }
   .text-navy-blue {
-    @apply text-[#0066FF];
+    @apply text-[#394498];
   }
   .bg-navy-blue {
-    @apply bg-[#0066FF];
+    @apply bg-[#394498];
   }
   .text-red-accent {
     @apply text-[#FF0000];
@@ -150,6 +150,6 @@
     @apply border-[#FF0000];
   }
   .border-navy-blue {
-    @apply border-[#0066FF];
+    @apply border-[#394498];
   }
 }
