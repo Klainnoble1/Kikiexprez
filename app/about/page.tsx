@@ -205,6 +205,11 @@ export default function About() {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <div className="text-4xl mb-4">🌍</div>
+              <h3 className="text-xl font-bold text-navy-blue mb-2">190 Countries Worldwide</h3>
+              <p className="text-gray-700">We deliver to 190 countries across the globe, connecting businesses worldwide</p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="text-4xl mb-4">🏢</div>
               <h3 className="text-xl font-bold text-navy-blue mb-2">UK & Nigeria Offices</h3>
               <p className="text-gray-700">Fully operational offices in London and Lagos for seamless coordination</p>
             </div>

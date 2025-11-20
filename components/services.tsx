@@ -33,7 +33,10 @@ export default function Services() {
           <h2 className="text-4xl md:text-5xl font-bold text-navy-blue mb-4">
             Our services
           </h2>
-          <div className="w-16 h-1 bg-red-accent mx-auto"></div>
+          <div className="w-16 h-1 bg-red-accent mx-auto mb-4"></div>
+          <p className="text-lg md:text-xl text-navy-blue font-semibold">
+            We deliver to 190 Countries Worldwide
+          </p>
         </div>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
