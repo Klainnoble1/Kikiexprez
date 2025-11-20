@@ -29,7 +29,7 @@ export default function About() {
         <div className="max-w-6xl mx-auto px-4 md:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-navy-blue mb-6 text-balance">
-              Welcome to Kikiexprez Business Solution
+              Welcome to Kikiexprez Business Solutions
             </h2>
             <p className="text-lg md:text-xl text-gray-700 leading-relaxed max-w-4xl mx-auto mb-6">
               Your trusted partner in air and sea freight forwarding, cargo handling, warehousing, and door-to-door delivery between the United Kingdom, Nigeria, and global destinations.
@@ -232,7 +232,7 @@ export default function About() {
 
           <div className="text-center bg-navy-blue text-white p-8 md:p-12 rounded-lg">
             <p className="text-xl md:text-2xl font-bold italic">
-              At Kikiexprez Business Solution, we don't just move cargo—<br />
+              At Kikiexprez Business Solutions, we don't just move cargo—<br />
               we deliver trust, one shipment at a time.
             </p>
           </div>

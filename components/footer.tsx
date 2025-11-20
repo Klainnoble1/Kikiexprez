@@ -5,10 +5,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-12 mb-12">
           {/* Company Info */}
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <div className="bg-red-accent text-white font-bold px-2 py-1 text-sm">B</div>
-              <h3 className="text-lg font-bold">KIKIEXPREZ</h3>
-            </div>
+            <h3 className="text-lg font-bold mb-4">KIKIEXPREZ</h3>
             <p className="text-gray-300 text-sm leading-relaxed mb-2">
               Your trusted logistics and courier partner for international cargo delivery from London to Lagos and beyond.
             </p>
@@ -62,7 +59,7 @@ export default function Footer() {
         {/* Divider */}
         <div className="border-t border-gray-700 pt-8">
           <p className="text-center text-gray-400 text-sm">
-            &copy; 2025 KIKIEXPREZ Global Express. All rights reserved.
+            &copy; 2025 Kikiexprez Business Solutions. All rights reserved.
           </p>
         </div>
       </div>
