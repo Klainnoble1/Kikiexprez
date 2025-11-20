@@ -23,7 +23,7 @@ const heroSlides = [
     id: 3,
     title: 'Warehousing & Cargo Handling',
     subtitle: 'Secure Storage & Management',
-    description: 'Our state-of-the-art warehousing facilities provide secure storage and efficient cargo handling. We manage your goods with precision and care, ensuring they're ready for seamless distribution worldwide.',
+    description: 'Our state-of-the-art warehousing facilities provide secure storage and efficient cargo handling. We manage your goods with precision and care, ensuring they are ready for seamless distribution worldwide.',
     image: '/stacked-shipping-containers.jpg',
     cta: 'View Warehousing Services'
   }
