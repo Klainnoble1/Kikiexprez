@@ -8,24 +8,16 @@ const heroSlides = [
     title: 'Express Air Freight',
     subtitle: 'Fast & Reliable Global Delivery',
     description: 'Experience swift international shipping with our premium air freight services. We deliver to 190 countries worldwide, guaranteeing timely delivery of your cargo with real-time tracking and comprehensive insurance coverage.',
-    image: '/air-freight-cargo-loading.jpg',
+    image: '/air.jpg',
     cta: 'Learn About Air Freight'
   },
   {
     id: 2,
-    title: 'Sea Freight Solutions',
-    subtitle: 'Cost-Effective Shipping',
-    description: 'Optimize your shipping costs with our comprehensive sea freight services. From FCL to LCL shipments, we handle all logistics efficiently with transparent pricing and dedicated customer support throughout your journey.',
-    image: '/container-ship-ocean.jpg',
-    cta: 'Explore Sea Freight'
-  },
-  {
-    id: 3,
-    title: 'Warehousing & Cargo Handling',
-    subtitle: 'Secure Storage & Management',
-    description: 'Our state-of-the-art warehousing facilities provide secure storage and efficient cargo handling. We manage your goods with precision and care, ensuring they are ready for seamless distribution worldwide.',
-    image: '/stacked-shipping-containers.jpg',
-    cta: 'View Warehousing Services'
+    title: 'Sea Freight & Warehousing',
+    subtitle: 'Complete Logistics Solutions',
+    description: 'Optimize your shipping costs with our comprehensive sea freight services and state-of-the-art warehousing facilities. From FCL to LCL shipments, we handle all logistics efficiently with secure storage and dedicated customer support.',
+    image: '/Container.jpeg',
+    cta: 'Explore Our Services'
   }
 ]
 
