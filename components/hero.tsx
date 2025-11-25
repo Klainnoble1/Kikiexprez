@@ -5,19 +5,43 @@ import { useState, useEffect } from 'react'
 const heroSlides = [
   {
     id: 1,
-    title: 'Express Air Freight',
+    title: 'Sea Freight',
+    subtitle: 'Cost-Effective Global Shipping',
+    description: 'Optimize your shipping costs with our comprehensive sea freight services. From FCL to LCL shipments, we handle all logistics efficiently with transparent pricing and dedicated customer support throughout your journey. We deliver to 190 countries worldwide.',
+    image: '/sea.webp',
+    cta: 'Explore Sea Freight'
+  },
+  {
+    id: 2,
+    title: 'Air Freight',
     subtitle: 'Fast & Reliable Global Delivery',
     description: 'Experience swift international shipping with our premium air freight services. We deliver to 190 countries worldwide, guaranteeing timely delivery of your cargo with real-time tracking and comprehensive insurance coverage.',
     image: '/air.jpg',
     cta: 'Learn About Air Freight'
   },
   {
-    id: 2,
-    title: 'Sea Freight & Warehousing',
-    subtitle: 'Complete Logistics Solutions',
-    description: 'Optimize your shipping costs with our comprehensive sea freight services and state-of-the-art warehousing facilities. From FCL to LCL shipments, we handle all logistics efficiently with secure storage and dedicated customer support.',
-    image: '/sea.webp',
-    cta: 'Explore Our Services'
+    id: 3,
+    title: 'Warehousing',
+    subtitle: 'Secure Storage & Management',
+    description: 'Our state-of-the-art warehousing facilities provide secure storage and efficient cargo handling. We manage your goods with precision and care, ensuring they are ready for seamless distribution worldwide. Short-term and long-term storage solutions available.',
+    image: '/Container.jpeg',
+    cta: 'View Warehousing Services'
+  },
+  {
+    id: 4,
+    title: 'Door-to-Door Delivery',
+    subtitle: 'Complete Logistics Solution',
+    description: 'Eliminate the hassle of complex logistics. Our end-to-end delivery service manages everything from collection at origin to final destination, ensuring your packages arrive safely and on schedule with full accountability and real-time tracking.',
+    image: '/delivery-truck-logistics-door-to-door.jpg',
+    cta: 'View Delivery Services'
+  },
+  {
+    id: 5,
+    title: 'Priority Clearance',
+    subtitle: 'Expedited Customs Processing',
+    description: 'Navigate international regulations effortlessly with our expert customs clearance team. We provide priority clearance for time-sensitive materials, handling all documentation and compliance requirements to accelerate your cargo through customs with minimal delays.',
+    image: '/customs-clearance-cargo-containers-yard.jpg',
+    cta: 'Discover Clearance Services'
   }
 ]
 

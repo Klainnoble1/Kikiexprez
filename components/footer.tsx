@@ -57,8 +57,11 @@ export default function Footer() {
 
         {/* Divider */}
         <div className="border-t border-gray-700 pt-8">
-          <p className="text-center text-gray-400 text-sm">
+          <p className="text-center text-gray-400 text-sm mb-2">
             &copy; 2025 Kikiexprez Business Solutions. All rights reserved.
+          </p>
+          <p className="text-center text-gray-400 text-sm">
+            Kikiexprez Business Solution is registered in the UK with Reg No. 16447931
           </p>
         </div>
       </div>
