@@ -13,19 +13,27 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: '/placeholder-logo.png',
-        media: '(prefers-color-scheme: light)',
+        url: '/icon-k.svg',
+        type: 'image/svg+xml',
       },
       {
-        url: '/placeholder-logo.png',
-        media: '(prefers-color-scheme: dark)',
+        url: '/icon-k.svg',
+        sizes: '32x32',
+        type: 'image/svg+xml',
       },
       {
-        url: '/placeholder-logo.svg',
+        url: '/icon-k.svg',
+        sizes: '16x16',
         type: 'image/svg+xml',
       },
     ],
-    apple: '/placeholder-logo.png',
+    apple: [
+      {
+        url: '/icon-k.svg',
+        sizes: '180x180',
+        type: 'image/svg+xml',
+      },
+    ],
   },
 }
 
@@ -43,3 +51,4 @@ export default function RootLayout({
     </html>
   )
 }
+
