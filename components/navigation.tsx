@@ -22,7 +22,6 @@ export default function Navigation() {
             <Link href="/about" className="text-gray-700 hover:text-red-accent font-medium transition">ABOUT US</Link>
             <Link href="/services" className="text-gray-700 hover:text-red-accent font-medium transition">OUR SERVICES</Link>
             <Link href="/contact" className="text-gray-700 hover:text-red-accent font-medium transition">CONTACT</Link>
-            <Link href="/dashboard" className="text-gray-700 hover:text-red-accent font-medium transition">DASHBOARD</Link>
           </div>
 
           <button
@@ -39,7 +38,6 @@ export default function Navigation() {
             <Link href="/about" className="text-gray-700 hover:text-red-accent font-medium transition">ABOUT US</Link>
             <Link href="/services" className="text-gray-700 hover:text-red-accent font-medium transition">OUR SERVICES</Link>
             <Link href="/contact" className="text-gray-700 hover:text-red-accent font-medium transition">CONTACT</Link>
-            <Link href="/dashboard" className="text-gray-700 hover:text-red-accent font-medium transition">DASHBOARD</Link>
           </div>
         )}
       </div>
