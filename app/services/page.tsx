@@ -11,12 +11,12 @@ export default function Services() {
     {
       title: 'Freight Forwarding (Air & Sea)',
       description: 'Our comprehensive freight forwarding services guarantee that goods reach their destinations on time and in perfect condition, whether by air or sea. With established relationships ensuring competitive rates and reliable service.',
-      image: '/air-freight-cargo-plane-loading.jpg'
+      image: 'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200&h=800&fit=crop&q=80'
     },
     {
       title: 'Warehousing and Cargo Handling Management',
       description: 'Professional warehousing and cargo handling services to ensure your goods are stored safely and managed efficiently throughout the logistics process. Our secure facilities provide short-term and long-term storage solutions.',
-      image: '/logistics-office-team-professionals.jpg'
+      image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1200&h=800&fit=crop&q=80'
     },
     {
       title: 'Priority Clearance for Time Sensitive Material',
@@ -31,7 +31,7 @@ export default function Services() {
     {
       title: 'Tracking and Delivery Visibility Solution',
       description: 'Real-time tracking and visibility solutions that keep you informed about your shipment status at every stage of the journey. Stay connected with your cargo from pickup to final delivery with our advanced tracking systems.',
-      image: '/cargo-ship-containers-sea-freight.jpg'
+      image: 'https://images.unsplash.com/photo-1605745341112-85968b19335b?w=1200&h=800&fit=crop&q=80'
     },
     {
       title: 'Bulk Shipping Discount for High Volume',
@@ -47,7 +47,7 @@ export default function Services() {
       {/* Hero Section with Full-Bleed Image */}
       <section className="relative h-96 md:h-[500px] overflow-hidden bg-gray-200">
         <img 
-          src="/cargo-ship-containers-sea-freight-international.jpg"
+          src="https://images.unsplash.com/photo-1605745341112-85968b19335b?w=1200&h=800&fit=crop&q=80"
           alt="Cargo services"
           className="w-full h-full object-cover"
         />
