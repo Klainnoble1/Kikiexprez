@@ -32,7 +32,7 @@ export default function About() {
               Welcome to Kikiexprez Business Solutions
             </h2>
             <p className="text-lg md:text-xl text-gray-700 leading-relaxed max-w-4xl mx-auto mb-6">
-              Your trusted partner in air and sea freight forwarding, cargo handling, warehousing, and door-to-door delivery between the United Kingdom, Nigeria, and global destinations.
+              Your trusted global logistics and courier partner for international cargo services around the world.
             </p>
           </div>
           

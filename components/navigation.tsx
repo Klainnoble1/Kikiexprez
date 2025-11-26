@@ -13,7 +13,10 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <Link href="/">
-              <h1 className="text-xl font-bold text-navy-blue">KIKIEXPREZ</h1>
+              <div>
+                <h1 className="text-xl font-bold text-navy-blue">KIKIEXPREZ</h1>
+                <p className="text-xs text-gray-500">UK Reg No. 16447931</p>
+              </div>
             </Link>
           </div>
           
