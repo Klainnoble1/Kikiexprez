@@ -41,9 +41,14 @@ export default function Footer() {
             <div className="space-y-4 text-sm">
               <div>
                 <p className="text-gray-400 text-xs uppercase tracking-wide mb-1">Email</p>
-                <a href="mailto:kikiexprez@gmail.com" className="text-gray-300 hover:text-red-accent transition">
-                  kikiexprez@gmail.com
-                </a>
+                <div className="space-y-1">
+                  <a href="mailto:info@kikiexprez.com" className="block text-gray-300 hover:text-red-accent transition">
+                    info@kikiexprez.com
+                  </a>
+                  <a href="mailto:kikiexprez@gmail.com" className="block text-gray-300 hover:text-red-accent transition">
+                    kikiexprez@gmail.com
+                  </a>
+                </div>
               </div>
               <div>
                 <p className="text-gray-400 text-xs uppercase tracking-wide mb-1">Phone</p>

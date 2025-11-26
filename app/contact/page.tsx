@@ -105,7 +105,12 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h4 className="font-bold text-navy-blue mb-1">Email</h4>
-                    <p className="text-gray-700">kikiexprez@gmail.com</p>
+                    <a href="mailto:info@kikiexprez.com" className="block text-gray-700 hover:text-red-accent transition mb-1">
+                      info@kikiexprez.com
+                    </a>
+                    <a href="mailto:kikiexprez@gmail.com" className="block text-gray-700 hover:text-red-accent transition mb-1">
+                      kikiexprez@gmail.com
+                    </a>
                     <p className="text-sm text-gray-600">We'll respond within 24 hours</p>
                   </div>
                 </div>
