@@ -8,7 +8,7 @@ const heroSlides = [
     title: 'Sea Freight',
     subtitle: 'Cost-Effective Global Shipping',
     description: 'Optimize your shipping costs with our comprehensive sea freight services. From FCL to LCL shipments, we handle all logistics efficiently with transparent pricing and dedicated customer support throughout your journey. We deliver to 190 countries worldwide.',
-    image: '/sea.webp',
+    image: '/sea-freight.jpg',
     cta: 'Explore Sea Freight'
   },
   {
@@ -16,7 +16,7 @@ const heroSlides = [
     title: 'Air Freight',
     subtitle: 'Fast & Reliable Global Delivery',
     description: 'Experience swift international shipping with our premium air freight services. We deliver to 190 countries worldwide, guaranteeing timely delivery of your cargo with real-time tracking and comprehensive insurance coverage.',
-    image: '/air.jpg',
+    image: '/air-freight.jpg',
     cta: 'Learn About Air Freight'
   },
   {
@@ -24,7 +24,7 @@ const heroSlides = [
     title: 'Warehousing',
     subtitle: 'Secure Storage & Management',
     description: 'Our state-of-the-art warehousing facilities provide secure storage and efficient cargo handling. We manage your goods with precision and care, ensuring they are ready for seamless distribution worldwide. Short-term and long-term storage solutions available.',
-    image: '/Container.jpeg',
+    image: '/warehousing.jpg',
     cta: 'View Warehousing Services'
   },
   {
