@@ -7,7 +7,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-bold mb-4">KIKIEXPREZ</h3>
             <p className="text-gray-300 text-sm leading-relaxed mb-2">
-              Your trusted logistics and courier partner for international cargo delivery from London to Lagos and beyond.
+              Your trusted global logistics and courier partner for international cargo services around the world.
             </p>
             <p className="text-red-accent text-sm font-semibold italic">
               Delivering Peace of Mind Worldwide.
