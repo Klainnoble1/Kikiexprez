@@ -16,7 +16,7 @@ const heroSlides = [
     title: 'Air Freight',
     subtitle: 'Fast & Reliable Global Delivery',
     description: 'Experience swift international shipping with our premium air freight services. We deliver to 190 countries worldwide, guaranteeing timely delivery of your cargo with real-time tracking and comprehensive insurance coverage.',
-    image: 'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200&h=800&fit=crop&q=80',
+    image: '/air-freight-cargo-plane-loading.jpg',
     cta: 'Learn About Air Freight'
   },
   {
